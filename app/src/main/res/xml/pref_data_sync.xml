@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:defaultValue="@string/dr_sw_port_default"
+        android:key="dr_swp_k"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/dr_sw_port_desc"
+        android:title="@string/dr_sw_port" />
+    <ListPreference
+        android:defaultValue="@string/dr_sw_pol_default"
+        android:entries="@array/dr_sw_pol2"
+        android:entryValues="@array/dr_sw_pol2_values"
+        android:key="dr_sw_pol_k"
+        android:summary="@string/dr_sw_pol_desc"
+        android:title="@string/dr_sw_pol" />
+    <CheckBoxPreference
+        android:defaultValue="@string/ds_sw_default"
+        android:key="ds_k"
+        android:summary="@string/ds_sw_desc"
+        android:title="@string/ds_sw" />
+    <EditTextPreference
+        android:defaultValue="@string/ds_port_default"
+        android:dependency="ds_k"
+        android:key="ds_port_k"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/ds_port_desc"
+        android:title="@string/ds_port" />
+    <ListPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="@string/ds_pol_default"
+        android:dependency="ds_k"
+        android:entries="@array/dr_sw_pol2"
+        android:entryValues="@array/dr_sw_pol2_values"
+        android:key="ds_pol_k"
+        android:summary="@string/ds_pol_desc"
+        android:title="@string/ds_pol" />
+
+</PreferenceScreen>

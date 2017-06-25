@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Raspberry Pi GDO</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="dr_sw_pol">Door Switch Polarity</string>
+    <string name="dr_sw_pol_desc">Open door with 0-1-0 or 1-0-1</string>
+    <string name="dr_sw_pol_default">0</string>
+    <string name="ds_pol">Door Sensor Polarity</string>
+    <string name="ds_pol_desc">Is door open 0 or 1</string>
+    <string name="ds_pol_default">0</string>
+    <string name="username">Username</string>
+    <string name="username_desc">Username (Default Pi)</string>
+    <string name="username_default">Pi</string>
+    <string name="password">Password</string>
+    <string name="password_desc">Password (No Default)</string>
+    <string name="password_default">null</string>
+    <string name="ip">IP Address</string>
+    <string name="ip_desc">IP Address to Pi</string>
+    <string name="ip_default">192.168.1.250</string>
+    <string name="port">Port</string>
+    <string name="port_desc">Port to Pi</string>
+    <string name="port_default">8000</string>
+    <string name="ds_sw">Door Sensor</string>
+    <string name="ds_sw_desc">Is there a door sensor hooked up?</string>
+    <string name="ds_sw_default">false</string>
+    <string name="dr_sw_port">Door Open GPIO Port</string>
+    <string name="dr_sw_port_desc">GPIO Port the door relay hooked to.</string>
+    <string name="dr_sw_port_default">17</string>
+    <string name="ds_port">Sensor Port</string>
+    <string name="ds_port_desc">What port is the Door Sensor hooked to?</string>
+    <string name="ds_port_default">12</string>
+    <string name="da_sw1">Open Alert 1st.</string>
+    <string name="da_sw1_desc">First Sensor Alert active?</string>
+    <string name="da_sw1_default">false</string>
+    <string name="da_time1">Time to alert 1st.</string>
+    <string name="da_time1_desc">Set time till first alert in seconds.</string>
+    <string name="da_time1_default">30</string>
+    <string name="da_sw2">Open Alert 2nd.</string>
+    <string name="da_sw2_desc">Second Sensor Alert active?</string>
+    <string name="da_sw2_default">false</string>
+    <string name="da_time2">Time to alert 2nd.</string>
+    <string name="da_time2_desc">Set time till second alert in seconds.</string>
+    <string name="da_time2_default">60</string>
+
+    <string-array name="dr_sw_pol2">
+        <item>"0-1-0"</item>
+        <item>"1-0-1"</item>
+    </string-array>
+    <integer-array name="dr_sw_pol2_values">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <!-- Example General settings -->
+    <string name="tokerr">Token not generated</string>
+    <string name="distok">Display Token</string>
+    <string name="cptok">Copy Token</string>
+    <string name="pref_header_general">Network Settings</string>
+    <string name="settings">Settings</string>
+    <string name="get_token">Get Firebase Token</string>
+    <string name="token_title">View Firebase Token</string>
+
+    <string name="pref_general_title">Settings</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">GPIO Port Settings</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Door Alert Settings</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+</resources>

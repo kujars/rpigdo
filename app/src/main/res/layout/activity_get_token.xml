@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.pcswv.raspberrypigdo.MainActivity">
+
+    <Button
+        android:id="@+id/buttonDisplayToken"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/distok" />
+
+    <EditText
+        android:id="@+id/textViewToken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:hint="@string/cptok" />
+
+    <Button
+        android:id="@+id/cptok"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/cptok"
+        android:text="@string/cptok"
+        android:layout_toRightOf="@+id/buttonDisplayToken"
+        android:layout_toEndOf="@+id/buttonDisplayToken"
+        android:layout_alignTop="@+id/buttonDisplayToken" />
+
+</RelativeLayout>

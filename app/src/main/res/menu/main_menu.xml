@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Get_Token"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/get_token"/>
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/settings"/>
+</menu>

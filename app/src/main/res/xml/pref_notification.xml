@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="@string/da_sw1_default"
+        android:key="da1_k"
+        android:summary="@string/da_sw1_desc"
+        android:title="@string/da_sw1" />
+    <EditTextPreference
+        android:defaultValue="@string/da_time1_default"
+        android:key="dat_k"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/da_time1_desc"
+        android:title="@string/da_time1" />
+    <CheckBoxPreference
+        android:defaultValue="@string/da_sw2_default"
+        android:key="da2_k"
+        android:summary="@string/da_sw2_desc"
+        android:title="@string/da_sw2" />
+    <EditTextPreference
+        android:defaultValue="@string/da_time2_default"
+        android:key="dat2_k"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/da_time2_desc"
+        android:title="@string/da_time2" />
+</PreferenceScreen>
